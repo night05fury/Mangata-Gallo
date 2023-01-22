@@ -1,0 +1,167 @@
+body
+{
+    background-color: #674747;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top:1.5rem ;
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p
+{
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+header img{
+    display: block;
+    margin: auto;
+}
+nav{
+    background-color: #9F8772;
+    margin-top: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+    margin-bottom: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav ul a{
+    color:#EEEEEE ;
+    text-decoration: none;
+}
+nav ul a:active{
+    text-decoration: underline;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    text-decoration-thickness:0.25rem ;
+}
+#PromOffer img{
+    background-size: cover;
+    background-position: center;
+}
+#PromOffer {
+    background-image:url("../Assets/Asset 5.jpg") ;
+    background-size: cover;
+    background-position: center;
+    color: #9F8772;
+    text-shadow: 2px 2px 8px #bd9675;
+    text-align: right;
+    height: 50rem;
+}
+
+#PromOffer h1 {
+    font-weight: 600;
+    font-size: 80px;
+    /* background: #d4c0ae;  */
+    padding-right: 0.5rem;
+    margin-bottom: 0;
+}
+#PromOffer h2{
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    margin-bottom: 0%;
+}
+section + footer{
+    margin-bottom: 1rem;
+}
+article
+{
+    flex: 1;
+    padding-bottom: 1.5rem;
+}
+
+article ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+article a:link {
+    font-size: 1.3rem;
+    color: #c9926d;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #92480c;
+    text-decoration: underline;
+}
+
+article a:active {
+    color: #59e4f7;;
+    /* background-color: rgb(138, 165, 240); */
+}
+
+main article {
+    background-color: #EEEEEE;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.section2 {
+    background-color: #9F8772
+}
+
+.section2 article {
+    border-style: solid;
+    border-color: #b69388;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 9rem;
+}
+
+footer img {
+    max-width: 50%;
+    margin-top: 1rem;
+}
+
+footer p {
+    border-top: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    color: white;
+}
+
+footer div {
+    flex: 1;
+}
+footer p {
+    flex:2;
+}
+
