@@ -1,1 +1,0 @@
-# Mangata-Gallo
